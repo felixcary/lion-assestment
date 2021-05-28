@@ -20,7 +20,7 @@ class SongListDataReponse: Mappable {
     func toSongList() -> [Song] {
         var songList = [Song]()
         data.forEach { songListReponse in
-            songList.append(songListReponse.toSongList())
+            songList.append(songListReponse.toSong())
         }
         return songList
     }
@@ -49,18 +49,18 @@ class SongListReponse: Mappable {
         albumCover <- map["album.albumCover"]
     }
     
-    func toSongList() -> Song {
-        let songList = Song()
-        songList.id = id
-        songList.title = title
-        songList.preview = preview
-        songList.artistId = artistId
-        songList.artistName = artistName
-        songList.artistPicture = artistPicture
-        songList.albumTitle = albumTitle
-        songList.albumCover = albumCover
+    func toSong() -> Song {
+        let song = Song()
+        song.id = id
+        song.title = title
+        song.preview = preview
+        song.artistId = artistId
+        song.artistName = artistName
+        song.artistPicture = artistPicture
+        song.albumTitle = albumTitle
+        song.albumCover = albumCover
         
-        return songList
+        return song
     }
 }
 

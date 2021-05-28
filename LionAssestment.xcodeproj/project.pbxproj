@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,15 @@
 		DC2F6B462660EEEA00D0C5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2F6B442660EEEA00D0C5F6 /* LaunchScreen.storyboard */; };
 		DC2F6B512660EEEB00D0C5F6 /* LionAssestmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B502660EEEB00D0C5F6 /* LionAssestmentTests.swift */; };
 		DC2F6B5C2660EEEB00D0C5F6 /* LionAssestmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B5B2660EEEB00D0C5F6 /* LionAssestmentUITests.swift */; };
+		DC2F6B6C2660F1F600D0C5F6 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B6B2660F1F600D0C5F6 /* ApiServices.swift */; };
+		DC2F6B6F2660F77A00D0C5F6 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B6E2660F77A00D0C5F6 /* Song.swift */; };
+		DC2F6B752660F89500D0C5F6 /* SongResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B742660F89500D0C5F6 /* SongResponse.swift */; };
+		DC2F6B782660F9B900D0C5F6 /* SongViewParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B772660F9B900D0C5F6 /* SongViewParam.swift */; };
+		DC2F6B7D2660FA8300D0C5F6 /* SongApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B7C2660FA8300D0C5F6 /* SongApi.swift */; };
+		DC2F6B7F2660FAE300D0C5F6 /* SongStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B7E2660FAE300D0C5F6 /* SongStore.swift */; };
+		DC2F6B822660FCD900D0C5F6 /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B812660FCD900D0C5F6 /* RealmStore.swift */; };
+		DC2F6B842660FD0C00D0C5F6 /* SongRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B832660FD0C00D0C5F6 /* SongRealmStore.swift */; };
+		DC2F6B862660FE3C00D0C5F6 /* SongApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B852660FE3C00D0C5F6 /* SongApiService.swift */; };
 		E25F7BDFBCCA0C93A232D5E5 /* Pods_LionAssestment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947B8B81D386CEA951CDECED /* Pods_LionAssestment.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +69,15 @@
 		DC2F6B572660EEEB00D0C5F6 /* LionAssestmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionAssestmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2F6B5B2660EEEB00D0C5F6 /* LionAssestmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionAssestmentUITests.swift; sourceTree = "<group>"; };
 		DC2F6B5D2660EEEB00D0C5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2F6B6B2660F1F600D0C5F6 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		DC2F6B6E2660F77A00D0C5F6 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		DC2F6B742660F89500D0C5F6 /* SongResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResponse.swift; sourceTree = "<group>"; };
+		DC2F6B772660F9B900D0C5F6 /* SongViewParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewParam.swift; sourceTree = "<group>"; };
+		DC2F6B7C2660FA8300D0C5F6 /* SongApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongApi.swift; sourceTree = "<group>"; };
+		DC2F6B7E2660FAE300D0C5F6 /* SongStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongStore.swift; sourceTree = "<group>"; };
+		DC2F6B812660FCD900D0C5F6 /* RealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStore.swift; sourceTree = "<group>"; };
+		DC2F6B832660FD0C00D0C5F6 /* SongRealmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRealmStore.swift; sourceTree = "<group>"; };
+		DC2F6B852660FE3C00D0C5F6 /* SongApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongApiService.swift; sourceTree = "<group>"; };
 		F4394AEC1D467856F78AB05B /* Pods-LionAssestmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionAssestmentTests.release.xcconfig"; path = "Target Support Files/Pods-LionAssestmentTests/Pods-LionAssestmentTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +144,7 @@
 		DC2F6B382660EEE600D0C5F6 /* LionAssestment */ = {
 			isa = PBXGroup;
 			children = (
+				DC2F6B692660F1AA00D0C5F6 /* App */,
 				DC2F6B392660EEE600D0C5F6 /* AppDelegate.swift */,
 				DC2F6B3B2660EEE600D0C5F6 /* SceneDelegate.swift */,
 				DC2F6B3D2660EEE600D0C5F6 /* ViewController.swift */,
@@ -133,6 +152,7 @@
 				DC2F6B422660EEEA00D0C5F6 /* Assets.xcassets */,
 				DC2F6B442660EEEA00D0C5F6 /* LaunchScreen.storyboard */,
 				DC2F6B472660EEEA00D0C5F6 /* Info.plist */,
+				DC2F6B6B2660F1F600D0C5F6 /* ApiServices.swift */,
 			);
 			path = LionAssestment;
 			sourceTree = "<group>";
@@ -155,6 +175,109 @@
 			path = LionAssestmentUITests;
 			sourceTree = "<group>";
 		};
+		DC2F6B692660F1AA00D0C5F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B792660FA6400D0C5F6 /* Interactors */,
+				DC2F6B702660F86600D0C5F6 /* Adapters */,
+				DC2F6B6D2660F76D00D0C5F6 /* Entities */,
+				DC2F6B6A2660F1B300D0C5F6 /* Swinject */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		DC2F6B6A2660F1B300D0C5F6 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		DC2F6B6D2660F76D00D0C5F6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B6E2660F77A00D0C5F6 /* Song.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		DC2F6B702660F86600D0C5F6 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B802660FCCB00D0C5F6 /* StoreStorages */,
+				DC2F6B712660F87100D0C5F6 /* ApiServices */,
+			);
+			name = Adapters;
+			sourceTree = "<group>";
+		};
+		DC2F6B712660F87100D0C5F6 /* ApiServices */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B732660F88100D0C5F6 /* Services */,
+				DC2F6B722660F87A00D0C5F6 /* Responses */,
+			);
+			name = ApiServices;
+			sourceTree = "<group>";
+		};
+		DC2F6B722660F87A00D0C5F6 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B742660F89500D0C5F6 /* SongResponse.swift */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		DC2F6B732660F88100D0C5F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B852660FE3C00D0C5F6 /* SongApiService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DC2F6B762660F9AD00D0C5F6 /* ViewParams */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B772660F9B900D0C5F6 /* SongViewParam.swift */,
+			);
+			name = ViewParams;
+			sourceTree = "<group>";
+		};
+		DC2F6B792660FA6400D0C5F6 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B7B2660FA7600D0C5F6 /* Stores */,
+				DC2F6B7A2660FA6D00D0C5F6 /* Apis */,
+				DC2F6B762660F9AD00D0C5F6 /* ViewParams */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		DC2F6B7A2660FA6D00D0C5F6 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B7C2660FA8300D0C5F6 /* SongApi.swift */,
+			);
+			name = Apis;
+			sourceTree = "<group>";
+		};
+		DC2F6B7B2660FA7600D0C5F6 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B7E2660FAE300D0C5F6 /* SongStore.swift */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		DC2F6B802660FCCB00D0C5F6 /* StoreStorages */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B812660FCD900D0C5F6 /* RealmStore.swift */,
+				DC2F6B832660FD0C00D0C5F6 /* SongRealmStore.swift */,
+			);
+			name = StoreStorages;
+			sourceTree = "<group>";
+		};
 		EB6C206C117AC7D6227E371D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +288,6 @@
 				A3F972DC78B9C96DB337BD44 /* Pods-LionAssestmentTests.debug.xcconfig */,
 				F4394AEC1D467856F78AB05B /* Pods-LionAssestmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +302,7 @@
 				DC2F6B322660EEE600D0C5F6 /* Sources */,
 				DC2F6B332660EEE600D0C5F6 /* Frameworks */,
 				DC2F6B342660EEE600D0C5F6 /* Resources */,
+				51C9189483D58C2CEEF076BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +340,7 @@
 				DC2F6B532660EEEB00D0C5F6 /* Sources */,
 				DC2F6B542660EEEB00D0C5F6 /* Frameworks */,
 				DC2F6B552660EEEB00D0C5F6 /* Resources */,
+				EB6258B39F823D11ACA0CA0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,6 +466,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		51C9189483D58C2CEEF076BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionAssestment/Pods-LionAssestment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionAssestment/Pods-LionAssestment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LionAssestment/Pods-LionAssestment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D0E01DBA33269C476B120078 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +505,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EB6258B39F823D11ACA0CA0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionAssestment-LionAssestmentUITests/Pods-LionAssestment-LionAssestmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LionAssestment-LionAssestmentUITests/Pods-LionAssestment-LionAssestmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LionAssestment-LionAssestmentUITests/Pods-LionAssestment-LionAssestmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,9 +529,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2F6B782660F9B900D0C5F6 /* SongViewParam.swift in Sources */,
+				DC2F6B862660FE3C00D0C5F6 /* SongApiService.swift in Sources */,
+				DC2F6B7D2660FA8300D0C5F6 /* SongApi.swift in Sources */,
 				DC2F6B3E2660EEE600D0C5F6 /* ViewController.swift in Sources */,
 				DC2F6B3A2660EEE600D0C5F6 /* AppDelegate.swift in Sources */,
+				DC2F6B6C2660F1F600D0C5F6 /* ApiServices.swift in Sources */,
+				DC2F6B822660FCD900D0C5F6 /* RealmStore.swift in Sources */,
 				DC2F6B3C2660EEE600D0C5F6 /* SceneDelegate.swift in Sources */,
+				DC2F6B6F2660F77A00D0C5F6 /* Song.swift in Sources */,
+				DC2F6B842660FD0C00D0C5F6 /* SongRealmStore.swift in Sources */,
+				DC2F6B7F2660FAE300D0C5F6 /* SongStore.swift in Sources */,
+				DC2F6B752660F89500D0C5F6 /* SongResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -534,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

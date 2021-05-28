@@ -18,7 +18,7 @@ protocol ApiServiceProtocol {
 class ApiService: ApiServiceProtocol {
 
     private let configuration = URLSessionConfiguration.default
-    private static let URL = "https://deezerdevs-deezer.p.rapidapi.com/"
+    private static let URL = "https://deezerdevs-deezer.p.rapidapi.com"
     private static let successResponseCode = 200
     
     func getString(path: String) -> Single<(Bool, String)> {
