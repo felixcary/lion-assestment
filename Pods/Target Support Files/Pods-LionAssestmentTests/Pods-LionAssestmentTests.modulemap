@@ -1,0 +1,6 @@
+framework module Pods_LionAssestmentTests {
+  umbrella header "Pods-LionAssestmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
