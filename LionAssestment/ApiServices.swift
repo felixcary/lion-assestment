@@ -26,7 +26,10 @@ class ApiService: ApiServiceProtocol {
     }
     
     private func createURL(path: String) -> String {
-        return ApiService.URL + path
+        let url = ApiService.URL + path
+        let encodedUrl = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
+
+        return encodedUrl
     }
     
     private func populateHeaders(dict: [String:String]? = nil) -> HTTPHeaders {

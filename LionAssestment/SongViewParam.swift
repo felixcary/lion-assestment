@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SongListViewParam {
+class SongViewParam {
     
     var id = 0
     var title = ""
@@ -18,26 +18,26 @@ class SongListViewParam {
     var albumTitle = ""
     var albumCover = ""
     
-    static func create(song: Song) -> SongListViewParam {
-        let songListViewParam = SongListViewParam()
-        songListViewParam.id = song.id
-        songListViewParam.id = song.id
-        songListViewParam.title = song.title
-        songListViewParam.preview = song.preview
-        songListViewParam.artistId = song.artistId
-        songListViewParam.artistName = song.artistName
-        songListViewParam.artistPicture = song.artistPicture
-        songListViewParam.albumTitle = song.albumTitle
-        songListViewParam.albumCover = song.albumCover
+    static func create(song: Song) -> SongViewParam {
+        let songViewParam = SongViewParam()
+        songViewParam.id = song.id
+        songViewParam.id = song.id
+        songViewParam.title = song.title
+        songViewParam.preview = song.preview
+        songViewParam.artistId = song.artistId
+        songViewParam.artistName = song.artistName
+        songViewParam.artistPicture = song.artistPicture
+        songViewParam.albumTitle = song.albumTitle
+        songViewParam.albumCover = song.albumCover
         
-        return songListViewParam
+        return songViewParam
     }
     
-    static func create(songList: [Song]) -> [SongListViewParam] {
-        var songListViewParams = [SongListViewParam]()
-        songList.forEach { (song) in
-            songListViewParams.append(SongListViewParam.create(song: song))
+    static func create(songList: [Song]) -> [SongViewParam] {
+        var songViewParams = [SongViewParam]()
+        songList.forEach { song in
+            songViewParams.append(SongViewParam.create(song: song))
         }
-        return songListViewParams
+        return songViewParams
     }
 }

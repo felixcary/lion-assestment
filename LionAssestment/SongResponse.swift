@@ -42,11 +42,11 @@ class SongListReponse: Mappable {
         id <- map["id"]
         title <- map["title"]
         preview <- map["preview"]
-        artistId <- map["artist.artistId"]
-        artistName <- map["artist.artistName"]
-        artistPicture <- map["artist.artistPicture"]
-        albumTitle <- map["album.albumTitle"]
-        albumCover <- map["album.albumCover"]
+        artistId <- map["artist.id"]
+        artistName <- map["artist.name"]
+        artistPicture <- map["artist.picture_big"]
+        albumTitle <- map["album.title"]
+        albumCover <- map["album.cover_big"]
     }
     
     func toSong() -> Song {
