@@ -1,0 +1,6 @@
+.DS_Store
+Pods
+LionAssestment.xcworkspace/xcuserdata/
+LionAssestment.xcodeproj/xcuserdata/
+LionAssestment.xcodeproj/project.xcworkspace/xcuserdata/
+Podfile.lock
