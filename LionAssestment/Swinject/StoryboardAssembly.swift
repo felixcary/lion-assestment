@@ -16,6 +16,10 @@ class StoryboardsAssembly: Assembly {
         container.storyboardInitCompleted(HomeViewController.self) { r, c in
             c.homeViewModel = r.resolve(HomeViewModel.self)!
         }
+        
+        container.storyboardInitCompleted(SongDetailViewController.self) { r, c in
+            c.songDetailViewModel = r.resolve(SongDetailViewModel.self)!
+        }
 
     }
 }

@@ -14,6 +14,10 @@ class ViewModelsAssembly: Assembly {
         container.register(HomeViewModel.self) { r in
             HomeViewModel(displaySong: r.resolve(DisplaySongProtocol.self)!)
         }
+        
+        container.register(SongDetailViewModel.self) { r in
+            SongDetailViewModel()
+        }
     }
 }
 

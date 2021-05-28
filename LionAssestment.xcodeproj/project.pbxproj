@@ -37,6 +37,8 @@
 		DC2F6B9D266108DD00D0C5F6 /* InteractorsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B9C266108DD00D0C5F6 /* InteractorsAssembly.swift */; };
 		DC2F6B9F2661090B00D0C5F6 /* StorageAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6B9E2661090B00D0C5F6 /* StorageAssembly.swift */; };
 		DC2F6BA226610D0400D0C5F6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6BA126610D0400D0C5F6 /* UIImageView+Extension.swift */; };
+		DC2F6BA52661130D00D0C5F6 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6BA42661130D00D0C5F6 /* SongDetailViewController.swift */; };
+		DC2F6BA72661154400D0C5F6 /* SongDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6BA62661154400D0C5F6 /* SongDetailViewModel.swift */; };
 		E25F7BDFBCCA0C93A232D5E5 /* Pods_LionAssestment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947B8B81D386CEA951CDECED /* Pods_LionAssestment.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +102,8 @@
 		DC2F6B9C266108DD00D0C5F6 /* InteractorsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorsAssembly.swift; sourceTree = "<group>"; };
 		DC2F6B9E2661090B00D0C5F6 /* StorageAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAssembly.swift; sourceTree = "<group>"; };
 		DC2F6BA126610D0400D0C5F6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DC2F6BA42661130D00D0C5F6 /* SongDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+		DC2F6BA62661154400D0C5F6 /* SongDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewModel.swift; sourceTree = "<group>"; };
 		F4394AEC1D467856F78AB05B /* Pods-LionAssestmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionAssestmentTests.release.xcconfig"; path = "Target Support Files/Pods-LionAssestmentTests/Pods-LionAssestmentTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,7 +179,6 @@
 				DC2F6B882661001700D0C5F6 /* Xibs */,
 				DC2F6B392660EEE600D0C5F6 /* AppDelegate.swift */,
 				DC2F6B3B2660EEE600D0C5F6 /* SceneDelegate.swift */,
-				DC2F6B3D2660EEE600D0C5F6 /* HomeViewController.swift */,
 				DC2F6B3F2660EEE600D0C5F6 /* Main.storyboard */,
 				DC2F6B422660EEEA00D0C5F6 /* Assets.xcassets */,
 				DC2F6B442660EEEA00D0C5F6 /* LaunchScreen.storyboard */,
@@ -314,6 +317,7 @@
 		DC2F6B872661001000D0C5F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DC2F6BA3266112F100D0C5F6 /* ViewController */,
 				DC2F6B8B2661025A00D0C5F6 /* Components */,
 			);
 			name = Views;
@@ -339,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				DC2F6B952661054500D0C5F6 /* HomeViewModel.swift */,
+				DC2F6BA62661154400D0C5F6 /* SongDetailViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -357,6 +362,15 @@
 				DC2F6BA126610D0400D0C5F6 /* UIImageView+Extension.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DC2F6BA3266112F100D0C5F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F6B3D2660EEE600D0C5F6 /* HomeViewController.swift */,
+				DC2F6BA42661130D00D0C5F6 /* SongDetailViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		EB6C206C117AC7D6227E371D /* Pods */ = {
@@ -629,10 +643,12 @@
 				DC2F6B912661048400D0C5F6 /* StoryboardAssembly.swift in Sources */,
 				DC2F6B6F2660F77A00D0C5F6 /* Song.swift in Sources */,
 				DC2F6B842660FD0C00D0C5F6 /* SongRealmStore.swift in Sources */,
+				DC2F6BA72661154400D0C5F6 /* SongDetailViewModel.swift in Sources */,
 				DC2F6BA226610D0400D0C5F6 /* UIImageView+Extension.swift in Sources */,
 				DC2F6B8D2661026C00D0C5F6 /* SongListCell.swift in Sources */,
 				DC2F6B7F2660FAE300D0C5F6 /* SongStore.swift in Sources */,
 				DC2F6B752660F89500D0C5F6 /* SongResponse.swift in Sources */,
+				DC2F6BA52661130D00D0C5F6 /* SongDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

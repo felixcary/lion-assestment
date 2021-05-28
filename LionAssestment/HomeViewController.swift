@@ -22,6 +22,13 @@ class HomeViewController: UIViewController {
         setupTableView()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "OpenSongDetail" {
+            guard let destinationViewController = segue.destination as? SongDetailViewController, let songDetail = sender as? SongViewParam else { return }
+            destinationViewController.setDetail(songDetail: songDetail)
+        }
+    }
+    
     private func setupTableView() {
         songTableView.register(SongListCell.nib(), forCellReuseIdentifier: SongListCell.cellReuseIdentifier())
     }
@@ -32,6 +39,10 @@ class HomeViewController: UIViewController {
                 guard let weakSelf = self else { return }
                 weakSelf.songTableView.reloadData()
             }).disposed(by: disposeBag)
+    }
+    
+    private func openSongDetail(songDetail: SongViewParam) {
+        performSegue(withIdentifier: "OpenSongDetail", sender: songDetail)
     }
 
 }
@@ -46,5 +57,9 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
         cell.setData(songViewParam: homeViewModel.songListViewParam[indexPath.row])
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        openSongDetail(songDetail: homeViewModel.songListViewParam[indexPath.row])
     }
 }
